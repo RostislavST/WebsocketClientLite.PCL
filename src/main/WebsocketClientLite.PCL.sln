@@ -13,10 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Github", "Github", "{9D70CE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{E9C88A2B-F5C0-41F0-8C8D-487D0FB5C69E}"
 	ProjectSection(SolutionItems) = preProject
-		..\build\build.ps1 = ..\build\build.ps1
-		..\build\publish.ps1 = ..\build\publish.ps1
-		..\build\publishLocal.ps1 = ..\build\publishLocal.ps1
-		..\build\WebsocketClientLite.PCL.nuspec = ..\build\WebsocketClientLite.PCL.nuspec
+		..\WebsocketClientLite.PCL.nuspec = ..\WebsocketClientLite.PCL.nuspec
+		..\WebsocketClientLite.PCL.nuspec.txt = ..\WebsocketClientLite.PCL.nuspec.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{0388463D-374D-4FE2-90CE-B7CB2C653EAC}"
@@ -25,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IWebsocketClientLite.Netsta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebsocketClientLite.Netstandard", "WebsocketClientLite.Netstandard\WebsocketClientLite.Netstandard.csproj", "{B323455D-61E5-4D21-907C-647A9CFA96F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NETCore.Console.Test", "..\test\NETCore.Console.Test\NETCore.Console.Test.csproj", "{2C1EEEFA-A547-41E7-9DA5-2D585B946341}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETCore.Console.Test", "..\test\NETCore.Console.Test\NETCore.Console.Test.csproj", "{2C1EEEFA-A547-41E7-9DA5-2D585B946341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

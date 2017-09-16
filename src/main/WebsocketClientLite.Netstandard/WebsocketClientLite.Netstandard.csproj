@@ -4,12 +4,13 @@
     <TargetFramework>netstandard1.2</TargetFramework>
     <AssemblyName>WebsocketClientLite.PCL</AssemblyName>
     <RootNamespace>WebsocketClientLite.PCL</RootNamespace>
+    <PackageTargetFallback>portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="HttpMachine.PCL" Version="3.0.1" />
-    <PackageReference Include="SocketLite.PCL" Version="4.0.6" />
-    <PackageReference Include="System.Reactive" Version="3.1.1" />
+    <PackageReference Include="SocketLite.Rx2" Version="1.0.0" />
+    <PackageReference Include="Rx-Main" Version="2.2.5" />
   </ItemGroup>
 
   <ItemGroup>

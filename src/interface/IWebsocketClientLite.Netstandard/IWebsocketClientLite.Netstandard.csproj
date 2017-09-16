@@ -6,10 +6,11 @@
     <RootNamespace>IWebsocketClientLite.PCL</RootNamespace>
     <AssemblyVersion>4.0.6.0</AssemblyVersion>
     <FileVersion>4.0.6.0</FileVersion>
+    <PackageTargetFallback>portable-net45+win8</PackageTargetFallback>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SocketLite.PCL" Version="4.0.6" />
+    <PackageReference Include="SocketLite.Rx2" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
